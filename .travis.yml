@@ -4,4 +4,4 @@ services:
   - docker
 
 before_install:
-  - docker build -f learning_docker/Dockerfile
+  - docker build -f learning_docker/Dockerfile .
